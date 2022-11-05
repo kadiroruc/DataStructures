@@ -66,7 +66,7 @@ node* sil(node* r,int x){
         iter=iter->next;
     }
     if(iter->next==r){
-        printf("The serached value cannot be found!\n");
+        printf("The searched value cannot be found!\n");
         return r;
     }
     else{
